@@ -1,0 +1,22 @@
+package com.jlcindia.pattern;
+
+import java.util.Scanner;
+
+public class Pattern4 {
+
+	public static void main(String[] args) {
+		/*System.out.println("Enter the Height of the pattern");
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();*/
+		
+		for(char i='A';i<= 'E';i++){
+			
+			for(char j='A';j<='E';j++){
+				System.out.print(i);
+			}
+			System.out.println();
+		}
+
+	}
+
+}

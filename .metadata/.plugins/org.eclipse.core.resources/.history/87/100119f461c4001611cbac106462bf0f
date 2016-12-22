@@ -1,0 +1,26 @@
+package com.jlcindia.pattern;
+
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Pattern11 {
+
+	public static void main(String[] args) {
+		System.out.println("Enter the Height of the pattern");
+		char ch;
+		try {
+			ch = (char)System.in.read();
+			for(char i='A';i<= ch;ch++){
+				
+				for(char j='A';j<=i;j++){
+					System.out.print(i);
+				}
+				System.out.println();
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

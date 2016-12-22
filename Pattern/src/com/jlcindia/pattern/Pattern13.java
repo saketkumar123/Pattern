@@ -1,0 +1,20 @@
+package com.jlcindia.pattern;
+
+import java.io.IOException;
+
+public class Pattern13 {
+
+	public static void main(String[] args) throws IOException {
+		System.out.println("Enter the Last Charecter");
+		char ch = (char)System.in.read();
+		for(char i='A';i<= ch;i++){
+			
+			for(int j='A';j<=i;j++){
+				System.out.print(i);
+			}
+			System.out.println();
+		}
+
+	}
+
+}

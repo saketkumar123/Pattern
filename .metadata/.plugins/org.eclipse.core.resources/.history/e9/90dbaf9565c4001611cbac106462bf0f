@@ -1,0 +1,24 @@
+package com.jlcindia.pattern;
+
+import java.io.IOException;
+
+public class Pattern11 {
+
+	public static void main(String[] args) throws IOException {
+		char ch = (char)System.in.read();
+		//char ch1
+			System.out.println("Enter the Starting Charecter A to Z");
+			char ch1= (char)System.in.read();
+			System.out.println("Enter the Ending Charecter A to Z");
+			char ch2 = (char)System.in.read();
+			/*for(char i=ch1;i<=ch2;i++){
+				
+				for(char j=ch1;j<=i;j++){
+					System.out.print(i);
+				}
+				System.out.println();
+			}*/
+		}
+
+
+}

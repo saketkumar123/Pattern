@@ -1,0 +1,24 @@
+package com.jlcindia.pattern;
+
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Pattern32 {
+
+	public static void main(String[] args) throws IOException {
+		System.out.println("Enter the Last Charecter");
+		char ch = (char)System.in.read();
+		for(int i=ch;i>= 'A';i--){
+			
+			for(int j=ch;j>i;j--){
+				System.out.print(" ");
+			}
+			for(int j='A';j<=i;j++){
+				System.out.print(i);
+			}
+			System.out.println();
+		}
+
+	}
+
+}

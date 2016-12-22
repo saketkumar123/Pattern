@@ -1,0 +1,27 @@
+package com.jlcindia.pattern;
+
+import java.util.Scanner;
+
+public class Pattern48 {
+
+	public static void main(String[] args) {
+		System.out.println("Enter the Height of the pattern");
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		for(int i=n;i>= 1;i--){
+			
+			for(int j=i;j>i;j--){
+				System.out.print(" ");
+			}
+			for(int j=n;j>=i;j--){
+				System.out.print(i);
+			}
+			for(int j=n/2;j>=i;j--){
+				System.out.print(i);
+			}
+			System.out.println();
+		}
+
+	}
+
+}

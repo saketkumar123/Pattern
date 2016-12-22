@@ -1,0 +1,33 @@
+package com.jlcindia.pattern;
+
+import java.util.Scanner;
+
+public class PatternTest {
+
+	public static void main(String[] args) {
+		/*System.out.println("Enter the Height of the pattern");
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();*/
+		int c=0;
+		for(int i=1;i<= 4;i++){
+			if(i%2!=0){
+			for(int j=1;j<=i;j++){
+					System.out.print(i+" ");
+					c++;
+				}
+			
+			}
+			else {
+				for(int j=3;j>=i;j--)
+					System.out.print(j+"*");
+			}
+			System.out.println();
+			/*for(int k=3;k>=i;k--){
+				System.out.print();
+			}
+			*/
+		}
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package com.jlcindia.pattern;
+
+import java.util.Scanner;
+
+public class Pattern52 {
+
+	public static void main(String[] args) {
+		System.out.println("Enter the max count (odd no) of a charecter in a row");
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int sp = n/2;
+		int h = n - sp;
+		for(int i=h-1;i>= 0;i--){
+			
+			for(int j=sp;j>=i;j--){
+				System.out.print(" ");
+			}
+			for(int j=0;j<n;j++){
+				System.out.print((char)(j+65));
+			}
+			n -= 2;
+			System.out.println();
+		}
+
+	}
+
+}

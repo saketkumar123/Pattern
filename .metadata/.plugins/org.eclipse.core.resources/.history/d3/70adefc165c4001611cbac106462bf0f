@@ -1,0 +1,20 @@
+package com.jlcindia.pattern;
+
+import java.io.IOException;
+
+public class Pattern11 {
+
+	public static void main(String[] args) throws IOException {
+		//char ch1
+			
+			for(char i='A';i<='E';i++){
+				
+				for(char j='A';j<=i;j++){
+					System.out.print(i);
+				}
+				System.out.println();
+			}
+		}
+
+
+}
